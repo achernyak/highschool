@@ -2,9 +2,16 @@ body {
   color: #663300;
   background-color: #d9e6b3;
   text-align: center;
+  font-family: arial;
+}
+
+h1 {
+  font-family: "arial black";
 }
 
 a {
   text-decoration: none;
   color: #cc5200;
+  font-size: 120%;
+  font-weight: bold;
 }
