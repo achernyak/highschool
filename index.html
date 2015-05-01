@@ -3,22 +3,59 @@
 
 <head>
   <title>Artem Chernyak</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <img src="me.jpg" alt="Artem Chernyak">
-  <h1>Artem Chernyak</h1>
-  <p class="nav">
-    <a href="skills.html">Skills</a>
-    <a href="contact.html">Contact</a>
-  </p>
-  <br>
-  <br>
-
-  <p>I war born in the Ukraine.</p>
-  <p>I have been with Monsanto for 3 years.</p>
-  <p>I am passionate about anything technology.</p>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <img src=" me.jpg " alt="Artem Chernyak" class="img-circle">
+        <a href="#" class="navbar-brand">Artem Chernyak</a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="index.html">Home</a>
+        </li>
+        <li><a href="skills.html">Skills</a>
+        </li>
+        <li><a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="jumbotron">
+    <div class="container">
+      <h1>About Me</h1>
+      <p>I was born in the Ukraine.</p>
+      <p>I have been with Monsanto for 3 years.</p>
+      <p>I am passionate about anything technology.</p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="col-md-6">
+      <h2>Skills</h2>
+      <p>Please take some time and learn more about my experience and talents.</p>
+      <p><a href="skills.html" class="btn btn-default">Learn More >></a>
+      </p>
+    </div>
+    <div class="col-md-6">
+      <h2>Contact Me</h2>
+      <table class="table table-striped">
+        <tr>
+          <td>Phone Number</td>
+          <td>(314)123-1234</td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td>artemchernyak@gmail.com</td>
+        </tr>
+      </table>
+      <p>Or you can contact me through a short form to ensure responsiveness.</p>
+      <p><a href="skills.html" class="btn btn-default">Contact Form >></a>
+      </p>
+    </div>
+  </div>
 </body>
 
 </html>
